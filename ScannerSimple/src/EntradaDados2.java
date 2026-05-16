@@ -10,6 +10,7 @@ public class EntradaDados2 {
 		
 		System.out.println("Digite três palavras:"); //Só mandar nextLine() no Linux abre console,tenho mandar um println antes.
 		x = sc.nextInt();
+		sc.nextLine(); //Esse nextLine() absorve a quebra de linha pendente do nextInt() limpando o buffer e permite proximo nextLine() ler a string.
 		s1 = sc.nextLine(); //Neste exemplo o nextLine() absorve a quebra de linha pendente do nextInt(), e passa para o próximo s2, que é o próximo nextLine() que vai ler a string completa.
 		s2 = sc.nextLine();
 		s3 = sc.nextLine();
@@ -21,6 +22,9 @@ public class EntradaDados2 {
 		System.out.println(s3);
 		
 		sc.close();
+		
+		Resumo da Aula:
+			- 
 	}
 
 }
