@@ -13,7 +13,6 @@ void main() {
 //	System.out.println("Seu Nome: " + name + " e sua Idade: " + age);
 	
 //	double x;
-	//anotacao guilherme almeida
 //	IO.print("Entre com um valor: ");
 //	x = sc.nextDouble();
 //	IO.print(String.format("Valor de %.2f%n", x));
