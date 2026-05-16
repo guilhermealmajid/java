@@ -23,8 +23,18 @@ public class EntradaDados2 {
 		
 		sc.close();
 		
-		Resumo da Aula:
-			- 
+		/* Resumo da Aula: 
+		 * - Scanner
+		 *   . next()
+		 *   . nextInt()
+		 *   . nextDouble()
+		 *   . next().charAt(0)
+		 *   
+		 * - Locale
+		 * - Como ler até a quebra de linha
+		 *   . nextLine()
+		 *   . como limpar o Buffer de leitura (Quebra de linbha pendente do nextInt(),nextDouble() etc, o nextLine() absorve a quebra de linha pendente,e passa para o proximo S2.)
+		 */
 	}
 
 }
