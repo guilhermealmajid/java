@@ -1,5 +1,14 @@
 /* Aula 35 - Funções matemáticas em Java
  * 
+ * Funções matemáticas
+
+    - sqrt – raiz quadrada
+    - pow – potenciação
+    - abs – valor absoluto
+    - Exemplos
+
+   Maiores informações: java.lang.Math
+ * 
  */
 public class funcoesMatematicas {
 	
