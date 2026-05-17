@@ -1,3 +1,7 @@
+/* Aula 33 - Entrada de Dados com Scanner - Parte 1
+ * 
+ */
+
 import java.util.Locale;
 import java.util.Scanner;
 
@@ -18,7 +22,7 @@ public class EntradaDados1 {
 		z = sc.next().charAt(0); //Ler um char, usando next com detalhe para index 0 ou seja primeiro caractere da string.
 		System.out.println("Você digitou: " + z);
 		
-		System.out.println("Digitar Nome, inteiro e Double: ");	//Ler vários dados na mesma linha, usando next() para ler a string sem espaços, nextInt() para ler o inteiro e nextDouble() para ler o double.
+		System.out.println("Digitar Nome, inteiro e Double: ");	//Ler dados numa mesma linha separados por espaço, tipo Array
 		String u;
 		int v;
 		double w;

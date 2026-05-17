@@ -1,3 +1,7 @@
+/* Aula 34 - Entrada de Dados com Scanner - Parte 2
+ * 
+ */
+
 import java.util.Scanner;
 
 //Ler linha inteira com quebra de linha, usando nextLine() para ler a string completa incluindo os espaços.
