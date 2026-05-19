@@ -6,6 +6,7 @@
  * - if/else: Domina quando a lógica exige operadores como >, <, && ou ||.
  * - switch-case: Ganha em velocidade, deixa o código muito mais legível e limpo,
  *  eliminando o cansaço visual de ler múltiplos blocos de código repetitivos.
+ *  guilherme
  */
 import java.util.Scanner;
 
