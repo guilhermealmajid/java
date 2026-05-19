@@ -1,3 +1,1 @@
-echo
-echo 2
-echo 3
+java course
