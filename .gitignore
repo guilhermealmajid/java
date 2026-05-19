@@ -5,3 +5,8 @@ src/
 .project
 .settings/
 .gitignore
+
+# --- Arquivos específicos do Eclipse deletados ---
+.settings/
+.classpath
+.project
