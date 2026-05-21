@@ -1,5 +1,6 @@
 /* Aula 33 - Entrada de Dados com Scanner - Parte 1
  * 
+ * 
  */
 
 import java.util.Locale;
