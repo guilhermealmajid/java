@@ -1,4 +1,3 @@
-/**/
 void main() {	
 
 	double preco = 34.5;
