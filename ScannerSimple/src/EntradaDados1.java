@@ -26,6 +26,7 @@ public class EntradaDados1 {
     System.out.println("Digite um caractere:");
     z = sc.next().charAt(0); // Ler um char, usando next com detalhe para index 0 ou seja primeiro caractere
                              // da string.
+    // alteracao
     System.out.println("Você digitou: " + z);
 
     System.out.println("Digitar Nome, inteiro e Double: "); // Ler dados numa mesma linha separados por espaço, tipo
