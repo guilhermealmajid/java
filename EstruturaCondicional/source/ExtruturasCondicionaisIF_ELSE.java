@@ -77,35 +77,33 @@
 import java.util.Scanner;
 
 public class ExtruturasCondicionaisIF_ELSE {
-	
-	public static void main(String[] args) {
-		int x = 5;
-		int hora;
-		
-		Scanner sc = new Scanner(System.in);
-		
-		System.out.print("Que horas são? ");
-		hora = sc.nextInt();
-		
-		if (hora < 12) {
-			System.out.println("Bom dia!");
-		} else {
-			if (hora < 18) {
-			System.out.println("Boa tarde!");
-			} else {
-				System.out.println("Boa noite!");
-			}
-		}
 
-//		System.out.println("Bom dia!");
+  public static void main(String[] args) {
+    int x = 5;
+    int hora;
 
-//		if (x < 5) {
-//			System.out.println("Boa tarde!");
-//		} 
-//			System.out.println("Boa noite!");
+    Scanner sc = new Scanner(System.in);
 
-		
+    System.out.print("Que horas são? ");
+    hora = sc.nextInt();
 
-}
+    if (hora < 12) {
+      System.out.println("Bom dia!");
+    } else {
+      if (hora < 18) {
+        System.out.println("Boa tarde!");
+      } else {
+        System.out.println("Boa noite!");
+      }
+    }
+
+    // System.out.println("Bom dia!");
+
+    // if (x < 5) {
+    // System.out.println("Boa tarde!");
+    // }
+    // System.out.println("Boa noite!");
+
+  }
 
 }
