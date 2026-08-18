@@ -1,18 +1,19 @@
+/*
+ *  ╭───────────────────────────────────────────╮
+ *  │            CondicaoTernaria               │
+ *  ╰───────────────────────────────────────────╯
+ *  Descrição : 
+ *  Autor     : Guilhermão Almeida
+ *  Data      : 17/08/2026 as 21:00HR
+ */
+
 void main() {
 
   double preco = 34.5;
-  // double desconto;
-  //
-  // if (preco < 20.0) {
-  // desconto = preco * 0.1;
-  // } else {
-  // desconto = preco * 0.05;oooo
-  // }
-
   double desconto = (preco < 20) ? preco * 0.1 : preco * 0.05;
-  // Statement: (condição) ? valor_se_verdadeiro : valor_se_falso.
-  // Feito para ser uma expressão e nao estrutura de controle de fluxo completa.
-  // Ser mais elegante e simples.
+  // Condição Ternária: (condição) ? valor_se_verdadeiro : valor_se_falso.
+  // É uma forma de simplificar a estrutura condicional if-else, tornando o código
+  // mais conciso e legível.
 
   System.out.println("Desconto: " + desconto);
 
