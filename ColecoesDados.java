@@ -30,11 +30,14 @@ void main() {
   nomesArry[2] = "Virginia";
   nomesArry[3] = "Layla";
   nomesArry[4] = "Isaque";
+  nomesArry[5] = "João";
+
+  // jovem nois na fita mano
 
   for (int vetores = 0; vetores < nomesArry.length; vetores++) {
-    // Int vetores começa com posicao 0,enquanto length do meu vetor
+    IO.println("vetores " + vetores + ": " + nomesArry[vetores]);
+    // Int vetores começa com posicao 0,enquanto length do meu vetores
     // for menor que 10, incrementa +1 ate consumir todas as posicoes do vetor
-    IO.println("Vetores " + vetores + ": " + nomesArry[vetores]);
   }
 
   for (int i = 0; i < lista.size(); i++) {
